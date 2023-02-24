@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const { connected } = useWallet();
 
   return (
-    <div className=".container">
+    <div className={styles.container}>
       <Head>
         <title>Solana Core Buildors</title>
         <meta name="The NFT Collection for Buildors" />
